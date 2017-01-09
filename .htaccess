@@ -1,0 +1,16 @@
+<IfModule mod_rewrite.c>
+  Options -Indexes
+
+  RewriteEngine On
+  RewriteCond $1 !^(index\\.php|resources|robots\\.txt)
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^(.+)$ index.php?/$1 [L,QSA]
+
+
+  # Remove '#' in the next line if you want to implement HTTPS for better security website.
+  # RewriteCond %{HTTPS} off
+  # RewriteRule .* https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+  # RewriteCond %{HTTP_HOST} !^www\.
+  # RewriteRule .* https://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+</IfModule>
