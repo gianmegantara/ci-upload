@@ -43,5 +43,3 @@ jQuery Upload Preview yang tersedia di `asset/js/jquery.uploadPreview.min.js` da
 ![alt-text](https://github.com/satyakresna/upload-image/blob/master/screenshots/Upload%20Image%20delete.png "Edit.png")<br>
 ### Upload Image (Delete)<br>
 ![alt-text](https://github.com/satyakresna/upload-image/blob/master/screenshots/Upload%20Image%20edit.png "Delete.png")
-# upload-image
-
